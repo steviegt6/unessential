@@ -4,5 +4,23 @@ unessential.config.category.visuals=Visuals
 unessential.config.tos.name=Accept Essential TOS
 unessential.config.tos.description=Forcefully sets whether the Essential TOS is enabled or disabled (disabled by default).
 
-unessential.config.accent.name=Essential Accent Color
-unessential.config.accent.description=Allows you to modify the green accent color used across Essential.
+# Used for all x_override descriptions.
+unessential.config.color_override.description=Overrides a constant Essential color.
+
+unessential.config.accent_hover.name=Override Constant "ACCENT_HOVER" Color
+unessential.config.essential_blue.name=Override Constant "ESSENTIAL_BLUE" Color
+unessential.config.essential_dark_blue_or_maybe_purple_idk.name=Override Constant "ESSENTIAL_DARK_BLUE_OR_MAYBE_PURPLE_IDK" Color
+unessential.config.essential_gold.name=Override Constant "ESSENTIAL_GOLD" Color
+unessential.config.essential_green.name=Override Constant "ESSENTIAL_GREEN" Color
+unessential.config.essential_puke_green.name=Override Constant "ESSENTIAL_PUKE_GREEN" Color
+unessential.config.essential_red.name=Override Constant "ESSENTIAL_RED" Color
+unessential.config.essential_yellow.name=Override Constant "ESSENTIAL_YELLOW" Color
+unessential.config.failed_message_text.name=Override Constant "FAILED_MESSAGE_TEXT" Color
+unessential.config.message_unread.name=Override Constant "MESSAGE_UNREAD" Color
+unessential.config.message_unread_hover.name=Override Constant "MESSAGE_UNREAD_HOVER" Color
+unessential.config.online.name=Override Constant "ONLINE" Color
+unessential.config.pending_message_text.name=Override Constant "PENDING_MESSAGE_TEXT" Color
+unessential.config.received_message_background.name=Override Constant "RECEIVED_MESSAGE_BACKGROUND" Color
+unessential.config.received_message_text.name=Override Constant "RECEIVED_MESSAGE_TEXT" Color
+unessential.config.sent_message_background.name=Override Constant "SENT_MESSAGE_BACKGROUND" Color
+unessential.config.sent_message_text.name=Override Constant "SENT_MESSAGE_TEXT" Color

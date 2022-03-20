@@ -13,7 +13,7 @@ import java.awt.*;
 
 @Mixin(value = UIComponent.class, remap = false)
 @SideOnly(Side.CLIENT)
-public class OverrideEssentialAccentColorMixin {
+public abstract class OverrideEssentialPaletteComponentMixin {
 
     @Inject(
             method = "getColor",

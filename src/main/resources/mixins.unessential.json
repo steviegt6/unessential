@@ -3,8 +3,10 @@
   "package": "dev.tomat.unessential.mixin",
   "mixins": [],
   "client": [
-    "gui.OverrideEssentialTOSMixin",
-    "gui.OverrideEssentialAccentColorMixin"
+    "gui.OverrideEssentialPaletteComponentMixin",
+    "gui.OverrideEssentialPaletteConstantConstraintMixin",
+    "gui.OverrideEssentialPaletteConstraintMixin",
+    "gui.OverrideEssentialTOSMixin"
   ],
   "server": []
 }
