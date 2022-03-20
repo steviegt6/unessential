@@ -1,0 +1,16 @@
+[
+{
+  "modid": "unessential",
+  "name": "Unessential",
+  "description": "The most essential mod for Essential.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/uranometrical/unessential",
+  "updateUrl": "https://github.com/uranometrical/unessential/releases",
+  "authorList": ["The Uranometrical Team"],
+  "credits": "Sk1er LLC., for making a mod so intrusive there had to be a mod just to fix it.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

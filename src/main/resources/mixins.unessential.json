@@ -1,0 +1,9 @@
+{
+  "compatibilityLevel": "JAVA_8",
+  "package": "dev.tomat.unessential.mixin",
+  "mixins": [],
+  "client": [
+    "gui.OverrideEssentialTOSMixin"
+  ],
+  "server": []
+}

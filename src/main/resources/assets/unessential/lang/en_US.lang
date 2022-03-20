@@ -1,0 +1,4 @@
+unessential.config.category.privacy=Privacy
+
+unessential.config.tos.name=Accept Essential TOS
+unessential.config.tos.description=Forcefully sets whether the Essential TOS is enabled or disabled (disabled by default).
