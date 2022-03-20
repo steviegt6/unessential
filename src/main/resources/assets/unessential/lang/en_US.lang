@@ -1,12 +1,17 @@
 unessential.config.category.privacy=Privacy
-unessential.config.category.visuals=Visuals
+unessential.config.category.visuals=Visuals (Essential)
+unessential.config.category.vigilance_visuals=Visuals (Vigilance)
 
 unessential.config.tos.name=Accept Essential TOS
 unessential.config.tos.description=Forcefully sets whether the Essential TOS is enabled or disabled (disabled by default).
 
-# Used for all x_override descriptions.
+# Used for all x_override Essential descriptions.
 unessential.config.color_override.description=Overrides a constant Essential color.
 
+# Used for all x_override Vigilance descriptions.
+unessential.config.color_override_vigilance.description=Overrides a constant Vigilance color;
+
+# Essential Palette
 unessential.config.accent_hover.name=Override Constant "ACCENT_HOVER" Color
 unessential.config.essential_blue.name=Override Constant "ESSENTIAL_BLUE" Color
 unessential.config.essential_dark_blue_or_maybe_purple_idk.name=Override Constant "ESSENTIAL_DARK_BLUE_OR_MAYBE_PURPLE_IDK" Color
@@ -24,3 +29,27 @@ unessential.config.received_message_background.name=Override Constant "RECEIVED_
 unessential.config.received_message_text.name=Override Constant "RECEIVED_MESSAGE_TEXT" Color
 unessential.config.sent_message_background.name=Override Constant "SENT_MESSAGE_BACKGROUND" Color
 unessential.config.sent_message_text.name=Override Constant "SENT_MESSAGE_TEXT" Color
+
+# Vigilance Palette
+unessential.config.accent.name=Override Constant "accent" Color
+unessential.config.background.name=Override Constant "background" Color
+unessential.config.bright_divider.name=Override Constant "brightDivider" Color
+unessential.config.bright_highlight.name=Override Constant "brightHighlight" Color
+unessential.config.bright_text.name=Override Constant "brightText" Color
+unessential.config.dark_background.name=Override Constant "darkBackground" Color
+unessential.config.dark_divider.name=Override Constant "darkDivider" Color
+unessential.config.dark_highlight.name=Override Constant "darkHighlight" Color
+unessential.config.dark_text.name=Override Constant "darkText" Color
+unessential.config.disabled.name=Override Constant "disabled" Color
+unessential.config.divider.name=Override Constant "divider" Color
+unessential.config.highlight.name=Override Constant "highlight" Color
+unessential.config.light_background.name=Override Constant "lightBackground" Color
+unessential.config.mid_text.name=Override Constant "midText" Color
+unessential.config.modal_background.name=Override Constant "modalBackground" Color
+unessential.config.outline.name=Override Constant "outline" Color
+unessential.config.scroll_bar.name=Override Constant "scrollBar" Color
+unessential.config.search_bar_background.name=Override Constant "searchBarBackground" Color
+unessential.config.success.name=Override Constant "success" Color
+unessential.config.transparent.name=Override Constant "transparent" Color
+unessential.config.warning.name=Override Constant "warning" Color
+
