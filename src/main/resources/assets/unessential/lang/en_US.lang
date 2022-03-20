@@ -9,7 +9,7 @@ unessential.config.tos.description=Forcefully sets whether the Essential TOS is 
 unessential.config.color_override.description=Overrides a constant Essential color.
 
 # Used for all x_override Vigilance descriptions.
-unessential.config.color_override_vigilance.description=Overrides a constant Vigilance color;
+unessential.config.color_override_vigilance.description=Overrides a constant Vigilance color.
 
 # Essential Palette
 unessential.config.accent_hover.name=Override Constant "ACCENT_HOVER" Color
