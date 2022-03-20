@@ -1,4 +1,8 @@
 unessential.config.category.privacy=Privacy
+unessential.config.category.visuals=Visuals
 
 unessential.config.tos.name=Accept Essential TOS
 unessential.config.tos.description=Forcefully sets whether the Essential TOS is enabled or disabled (disabled by default).
+
+unessential.config.accent.name=Essential Accent Color
+unessential.config.accent.description=Allows you to modify the green accent color used across Essential.
