@@ -16,7 +16,7 @@ public class UnessentialConfiguration extends Vigilant {
     // region
 
     @Property(
-            type = PropertyType.CHECKBOX,
+            type = PropertyType.SWITCH,
             name = "unessential.config.tos.name",
             description = "unessential.config.tos.description",
             category = "unessential.config.category.privacy"
@@ -30,7 +30,7 @@ public class UnessentialConfiguration extends Vigilant {
     // region
 
     @Property(
-            type = PropertyType.CHECKBOX,
+            type = PropertyType.SWITCH,
             name = "unessential.config.player_display.name",
             description = "unessential.config.player_display.description",
             category = "unessential.config.category.visuals"
@@ -38,7 +38,7 @@ public class UnessentialConfiguration extends Vigilant {
     public boolean playerDisplay = true;
 
     @Property(
-            type = PropertyType.CHECKBOX,
+            type = PropertyType.SWITCH,
             name = "unessential.config.button_display.name",
             description = "unessential.config.button_display.description",
             category = "unessential.config.category.visuals"
