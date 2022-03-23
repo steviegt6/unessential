@@ -3,7 +3,6 @@ package dev.tomat.unessential.mixin.gui;
 import dev.tomat.unessential.elementa.constraints.ColorOverrideConstraint;
 import gg.essential.elementa.UIComponent;
 import gg.essential.elementa.constraints.ColorConstraint;
-import gg.essential.elementa.constraints.ConstantColorConstraint;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import org.spongepowered.asm.mixin.Mixin;

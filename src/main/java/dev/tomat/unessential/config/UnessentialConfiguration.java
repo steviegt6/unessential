@@ -1,6 +1,5 @@
 package dev.tomat.unessential.config;
 
-import dev.tomat.unessential.UnessentialMod;
 import gg.essential.gui.EssentialPalette;
 import gg.essential.vigilance.Vigilant;
 import gg.essential.vigilance.data.Property;
