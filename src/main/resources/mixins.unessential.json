@@ -1,12 +1,16 @@
 {
   "compatibilityLevel": "JAVA_8",
   "package": "dev.tomat.unessential.mixin",
-  "mixins": [],
+  "mixins": [
+    "extensions.ExtendedEmulated3DPlayerMixin"
+  ],
   "client": [
+    "gui.ModifyPauseMenuDisplayMixin",
     "gui.OverrideEssentialPaletteComponentMixin",
     "gui.OverrideEssentialPaletteConstantConstraintMixin",
     "gui.OverrideEssentialPaletteConstraintMixin",
-    "gui.OverrideEssentialTOSMixin"
+    "gui.OverrideEssentialTOSMixin",
+    "gui.ToggleableEmulated3DPlayerMixin"
   ],
   "server": []
 }

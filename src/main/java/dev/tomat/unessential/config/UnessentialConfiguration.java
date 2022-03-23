@@ -31,6 +31,22 @@ public class UnessentialConfiguration extends Vigilant {
     // region
 
     @Property(
+            type = PropertyType.CHECKBOX,
+            name = "unessential.config.player_display.name",
+            description = "unessential.config.player_display.description",
+            category = "unessential.config.category.visuals"
+    )
+    public boolean playerDisplay = true;
+
+    @Property(
+            type = PropertyType.CHECKBOX,
+            name = "unessential.config.button_display.name",
+            description = "unessential.config.button_display.description",
+            category = "unessential.config.category.visuals"
+    )
+    public boolean buttonDisplay = true;
+
+    @Property(
             type = PropertyType.COLOR,
             name = "unessential.config.accent_hover.name",
             description = "unessential.config.color_override.description",

@@ -5,6 +5,12 @@ unessential.config.category.vigilance_visuals=Visuals (Vigilance)
 unessential.config.tos.name=Accept Essential TOS
 unessential.config.tos.description=Forcefully sets whether the Essential TOS is enabled or disabled (disabled by default).
 
+unessential.config.player_display.name=Pause Menu Player Display
+unessential.config.player_display.description=Whether to render the player on the pause screen and Main Menu.
+
+unessential.config.button_display.name=Pause Menu Button Display
+unessential.config.button_display.description=Whether to render buttons on the pause screen and Main Menu.
+
 # Used for all x_override Essential descriptions.
 unessential.config.color_override.description=Overrides a constant Essential color.
 
