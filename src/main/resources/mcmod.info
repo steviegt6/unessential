@@ -9,7 +9,7 @@
   "updateUrl": "https://github.com/uranometrical/unessential/releases/latest",
   "authorList": ["The Uranometrical Team"],
   "credits": "Sk1er LLC., for making a mod so intrusive there had to be a mod just to fix it.",
-  "logoFile": "",
+  "logoFile": "logo.png",
   "screenshots": [],
   "dependencies": []
 }
