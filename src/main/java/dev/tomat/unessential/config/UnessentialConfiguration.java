@@ -357,6 +357,14 @@ public class UnessentialConfiguration extends Vigilant {
 
     // endregion
 
+    @Property(
+            type = PropertyType.PARAGRAPH,
+            name = "unessential.config.custom_colors_string.name",
+            description = "unessential.config.custom_colors_string.description",
+            category = "unessential.config.category.unessential_visuals"
+    )
+    public String customColorOverride = "";
+
     public UnessentialConfiguration() {
         super(new File("./config/unessential_config.toml"));
 

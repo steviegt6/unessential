@@ -5,7 +5,7 @@ plugins {
     id "org.spongepowered.mixin" version "d5f9873d60"
 }
 
-version = "1.0.0"
+version = "0.1.0"
 group = "dev.tomat"
 archivesBaseName = "unessential"
 

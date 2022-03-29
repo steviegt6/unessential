@@ -6,7 +6,7 @@
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "https://github.com/uranometrical/unessential",
-  "updateUrl": "https://github.com/uranometrical/unessential/releases",
+  "updateUrl": "https://github.com/uranometrical/unessential/releases/latest",
   "authorList": ["The Uranometrical Team"],
   "credits": "Sk1er LLC., for making a mod so intrusive there had to be a mod just to fix it.",
   "logoFile": "",

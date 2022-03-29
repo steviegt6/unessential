@@ -1,6 +1,7 @@
 unessential.config.category.privacy=Privacy
 unessential.config.category.visuals=Visuals (Essential)
 unessential.config.category.vigilance_visuals=Visuals (Vigilance)
+unessential.config.category.unessential_visuals=Visuals (Unessential)
 
 unessential.config.tos.name=Accept Essential TOS
 unessential.config.tos.description=Forcefully sets whether the Essential TOS is enabled or disabled (disabled by default).
@@ -10,6 +11,9 @@ unessential.config.player_display.description=Whether to render the player on th
 
 unessential.config.button_display.name=Pause Menu Button Display
 unessential.config.button_display.description=Whether to render buttons on the pause screen and Main Menu.
+
+unessential.config.custom_colors_string.name=Custom Color Overrides
+unessential.config.custom_colors_string.description=Override custom colors using a string. Use a semi-colon to separate sets. Use a colon to separate the colors to match. A valid match would be "#FFFFFF:FF0000;", which changes the color white to the color red.
 
 # Used for all x_override Essential descriptions.
 unessential.config.color_override.description=Overrides a constant Essential color.
@@ -58,4 +62,3 @@ unessential.config.search_bar_background.name=Override Constant "searchBarBackgr
 unessential.config.success.name=Override Constant "success" Color
 unessential.config.transparent.name=Override Constant "transparent" Color
 unessential.config.warning.name=Override Constant "warning" Color
-

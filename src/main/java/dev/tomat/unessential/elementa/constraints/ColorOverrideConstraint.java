@@ -4,7 +4,10 @@ import dev.tomat.unessential.UnessentialMod;
 import gg.essential.gui.EssentialPalette;
 import gg.essential.vigilance.gui.VigilancePalette;
 
+import javax.annotation.Nullable;
 import java.awt.*;
+import java.util.Locale;
+import java.util.Objects;
 
 /**
  * A simple class for overriding some ColorConstraint logic.
@@ -13,7 +16,7 @@ import java.awt.*;
 public final class ColorOverrideConstraint {
     public static Color getOverriddenColor(Color input) {
         // TODO: If someone sets an Essential color to a default Vigilance one, this will cause clashing.
-        return getVigilanceColor(getEssentialColor(input));
+        return getCustomColor(getVigilanceColor(getEssentialColor(input)));
     }
 
     public static Color getEssentialColor(Color input) {
@@ -174,5 +177,64 @@ public final class ColorOverrideConstraint {
         }
 
         return input;
+    }
+
+    public static Color getCustomColor(Color input) {
+        String custom = UnessentialMod.INSTANCE.CONFIG.customColorOverride;
+        String[] colorOverrides = custom.split(";");
+
+        for (String colorOverride : colorOverrides) {
+            String[] parts = colorOverride.split(":");
+
+            if (parts.length != 2)
+                continue;
+
+            try {
+                if (Objects.equals(input, safeDecode(parts[0]))) {
+                    Color decoded = safeDecode(parts[1]);
+
+                    if (decoded != null) {
+                        input = safeDecode(parts[1]);
+                    }
+                }
+            } catch (Exception ignore) {
+
+            }
+        }
+
+        return input;
+    }
+
+    public static @Nullable Color safeDecode(String hex) {
+        if (hex == null || hex.length() == 0) {
+            return null;
+        }
+
+        hex = hex.toUpperCase(Locale.ROOT);
+
+        if (!hex.startsWith("#")) {
+            hex = "#" + hex;
+        }
+
+        long color = Long.parseLong(hex.substring(1), 16);
+
+        if (hex.length() == 7) {
+            return new Color(
+                    (int) ((color >> 16) & 0xFF),
+                    (int) ((color >> 8) & 0xFF),
+                    (int) (color & 0xFF)
+            );
+        }
+
+        if (hex.length() == 9) {
+            return new Color(
+                    (int) ((color >> 24) & 0xFF),
+                    (int) ((color >> 16) & 0xFF),
+                    (int) ((color >> 8) & 0xFF),
+                    (int) (color & 0xFF)
+            );
+        }
+
+        return null;
     }
 }
